@@ -1,1 +1,7 @@
 # Escape Room - Time Jumpers
+
+Assignment Overview
+
+Welcome to the VR Game Mechanic assignment. In this assignment, you are tasked with creating a VR game prototype which focuses on game mechanics that you have coded. The type of mechanic and game genre are up to you. You will be marked on your creativity and how well your mechanic is designed around the strengths and weaknesses of VR.  Your design should be intuitive for a first-time user. Align your design with core game-design principles and avoid unethical content. Try to avoid complicated mechanics that require detailed tutorials or explanations. Test your mechanic with play-testers to ensure your design is working as intended. Once your gameplay is mechanic is functional, you should try to make the prototype as visually polished as possible, using additional art, audio, and your level design and worldbuilding skills. Make sure the idea for your mechanic is feasible for you to develop within the timeframe of the assignment. 
+
+You will also need to create a 1-minute video trailer that showcases your prototype. The trailer will be played at the start of a 5-minute presentation that you will give to the rest of you cohort. Be prepared to speak for 2 minutes to describe your game prototype, how you implemented its features technically, etc. You will then have 2 minutes to answer questions from your peers. Be prepared to justify your design decisions and how you could take your prototype to the next stage. Good Luck!
