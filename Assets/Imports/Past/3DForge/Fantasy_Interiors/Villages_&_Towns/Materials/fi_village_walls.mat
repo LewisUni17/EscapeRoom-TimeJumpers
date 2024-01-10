@@ -61,6 +61,6 @@ Material:
     m_Floats:
     - _Glossiness: 0.977
     - _OcclusionStrength: 0.939
-    - _Smoothness: 0.977
+    - _Smoothness: 0
     m_Colors: []
   m_BuildTextureStacks: []
