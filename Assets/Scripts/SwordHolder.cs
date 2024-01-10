@@ -3,27 +3,37 @@ using UnityEngine;
 public class SwordHolder : MonoBehaviour
 {
     public string swordTag = "Sword";
-    public string holderTag = "Swordholder";
+    public string holderTag = "SwordHolder";
     public AudioClip swordInsertSound;
+    public AutoDoors targetScript; // Reference to the target script
 
     private int swordsInHolder = 0;
+
+    void Start()
+    {
+        // Ensure the target script is initially deactivated
+        if (targetScript != null)
+        {
+            targetScript.enabled = false;
+        }
+    }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag(swordTag))
         {
-            // Check if the sword is not already in the holder
             Sword sword = other.GetComponent<Sword>();
             if (sword != null && !sword.IsInHolder())
             {
                 sword.SetInHolder(true);
                 swordsInHolder++;
 
-                // Check if all swords are in the holder
-                if (swordsInHolder == 3)
+                Debug.Log("Swords in Holder: " + swordsInHolder);
+
+                if (swordsInHolder == 6)
                 {
                     PlaySwordInsertSound();
-                    // Perform any other actions or triggers you want here
+                    ActivateTargetScript(); // Activate the target script
                 }
             }
         }
@@ -34,6 +44,14 @@ public class SwordHolder : MonoBehaviour
         if (swordInsertSound != null)
         {
             AudioSource.PlayClipAtPoint(swordInsertSound, transform.position);
+        }
+    }
+
+    private void ActivateTargetScript()
+    {
+        if (targetScript != null)
+        {
+            targetScript.enabled = true; // Activate the target script
         }
     }
 }

@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class PlayerActions : MonoBehaviour
 {
-    private void OnTriggerStay(Collider other)
+
+    private void OnTriggerStay(Collider other)      // Method to activate the doors
     {
         if (other.tag == "Door")
         {
@@ -14,4 +15,5 @@ public class PlayerActions : MonoBehaviour
             }
         }
     }
+
 }
