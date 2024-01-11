@@ -12,7 +12,7 @@ public class AutoDoors2 : MonoBehaviour
 
     void Start()
     {
-        //enabled = false;
+        enabled = false;
         startPos = transform.position;
     }
 
