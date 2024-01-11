@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 6185937851193768093}
   - component: {fileID: 178650947909146529}
   - component: {fileID: 8462566133133643756}
-  - component: {fileID: 3790583631636699653}
+  - component: {fileID: 6813172890978223868}
   m_Layer: 0
   m_Name: Right_Door_Final
   m_TagString: Untagged
@@ -217,7 +217,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &3790583631636699653
+--- !u!114 &6813172890978223868
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -226,10 +226,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 6185937851196024403}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0831b2460e75fe542b98d4e69c0c8e77, type: 3}
+  m_Script: {fileID: 11500000, guid: 008b472f836f6b64d874007152b8a5a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endPos: {x: -0.621, y: 0, z: 0}
+  endPos: {x: -15.621, y: 0, z: -3.75}
   speed: 10
 --- !u!1 &6185937851196024409
 GameObject:
@@ -362,7 +362,7 @@ GameObject:
   - component: {fileID: 6185937851193768095}
   - component: {fileID: 981789200943039909}
   - component: {fileID: 4187126378041792333}
-  - component: {fileID: 1954568035068631541}
+  - component: {fileID: 885105558409112394}
   m_Layer: 0
   m_Name: Left_Door_Final
   m_TagString: Untagged
@@ -484,7 +484,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1954568035068631541
+--- !u!114 &885105558409112394
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -493,10 +493,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 6185937851196024413}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0831b2460e75fe542b98d4e69c0c8e77, type: 3}
+  m_Script: {fileID: 11500000, guid: 008b472f836f6b64d874007152b8a5a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endPos: {x: 0.866, y: 0.2004949, z: 0}
+  endPos: {x: -13.866, y: 0.200494, z: -3.75}
   speed: 10
 --- !u!1 &6185937851196024415
 GameObject:
